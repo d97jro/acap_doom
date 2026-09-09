@@ -4,7 +4,7 @@
 original_dir=$PWD
 
 # Determine the project root directory:
-project_root_dir="$(dirname "$0")"
+project_root_dir=$(dirname "$0")
 
 # Source version.sh:
 # shellcheck disable=SC1091
